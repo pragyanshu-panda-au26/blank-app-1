@@ -72,12 +72,12 @@ interactions_train_df, interactions_test_df = train_test_split(interactions_full
 x_test=set(interactions_test_df['userCode'])
 x_train=set(interactions_train_df['userCode'])
 
-only_in_set1 = x_train - x_test
+# only_in_set1 = x_train - x_test
 
 
 #print("Elements in train but not in test:", only_in_set1)
 
-only_in_set2 = x_test - x_train
+# only_in_set2 = x_test - x_train
 
 #print("Elements in test but not in train:", only_in_set2)
 
