@@ -9,6 +9,12 @@ import streamlit as st
 import random
 
 import warnings
+
+from sklearn.preprocessing import LabelEncoder
+import math
+import scipy
+from scipy.sparse.linalg import svds
+
 warnings.filterwarnings("ignore")
 
 
